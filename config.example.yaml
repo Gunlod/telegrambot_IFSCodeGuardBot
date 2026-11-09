@@ -1,0 +1,18 @@
+telegram:
+  bot_token: "REPLACE_WITH_BOTFATHER_TOKEN"
+
+google:
+  spreadsheet_url: "https://docs.google.com/spreadsheets/d/REPLACE_WITH_SPREADSHEET_ID/edit"
+  worksheet_name: "blacklist"
+  # Relative paths are resolved against the directory containing this config.
+  service_account_file: "./secrets/service-account.json"
+  request_timeout: 15
+
+blacklist:
+  refresh_interval: 60
+
+logging:
+  level: "INFO"
+  file: "./logs/ifscodeguard.log"
+  max_bytes: 10485760  # 10 MiB per file
+  backup_count: 5

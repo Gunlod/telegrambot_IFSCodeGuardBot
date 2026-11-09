@@ -1,0 +1,29 @@
+# Local configuration and Google service-account secrets
+config.yaml
+config.*.yaml
+!config.example.yaml
+secrets/
+credentials/
+service-account*.json
+service_account*.json
+credentials*.json
+token*.json
+.env
+.env.*
+
+# Runtime and development files
+logs/
+*.log
+*.log.*
+.venv/
+.venv-test/
+.uv-cache/
+.uv-python/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
