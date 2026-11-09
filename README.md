@@ -106,13 +106,11 @@ Failed to reload blacklist. Using previous cache.
 IFSCodeGuardBot status
 
 Blacklist entries: 125
-Username entries: 0 (not used)
-Display name entries: 0 (not used)
 Last updated: 2026-11-09 00:00:00 UTC
 Cache status: OK
 ```
 
-今回のシートにはusername・表示名のブラックリスト列がないため、この2件数は常に0です。最終更新日時は **最終成功時刻（UTC）** です。失敗後は`Using previous cache (last refresh failed)`、一度も成功していない場合は`UNAVAILABLE (no usable cache)`を表示します。キャッシュはBot全体で共有されるため、どの参加グループの管理者がリロードしても同じキャッシュを更新します。
+最終更新日時は **最終成功時刻（UTC）** です。失敗後は`Using previous cache (last refresh failed)`、一度も成功していない場合は`UNAVAILABLE (no usable cache)`を表示します。キャッシュはBot全体で共有されるため、どの参加グループの管理者がリロードしても同じキャッシュを更新します。
 
 ## ログ
 
